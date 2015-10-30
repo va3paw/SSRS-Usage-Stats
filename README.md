@@ -6,3 +6,7 @@ Set of usage reports for MS Reporting Services (SSRS)
 * Usage Log - by User Name > All reports viewed by selected user
 * Usage Log - Daily Summary > Summary and details over the reports viewed on a selected date
 * Usage Log - Dashboard > Top 20 most viewed reports, top 10 users, total view count by month
+
+To install - edit ReportServer.rds replacing 'Data Source=kimball' with the name of your SSRS server instance. You might also want to switch from Windows Authentication to SQL Authentication.
+Then modify TargetServerURL in the Project Properties with the path to your SSRS server - e.g. http://localhost/reportserver. Finally, deploy project to the server.
+
