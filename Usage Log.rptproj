@@ -29,6 +29,11 @@
       <Name>Usage Log - Dashboard.rdl</Name>
       <FullPath>Usage Log - Dashboard.rdl</FullPath>
     </ProjectItem>
+    <ResourceProjectItem>
+      <Name>README.md</Name>
+      <FullPath>README.md</FullPath>
+      <MimeType>text/plain</MimeType>
+    </ResourceProjectItem>
   </Reports>
   <Configurations>
     <Configuration>
