@@ -7,6 +7,10 @@ Set of usage reports for MS Reporting Services (SSRS)
 * Usage Log - Daily Summary > Summary and details over the reports viewed on a selected date
 * Usage Log - Dashboard > Top 20 most viewed reports, top 10 users, total view count by month
 
-To install - edit ReportServer.rds replacing 'Data Source=kimball' with the name of your SSRS server instance. You might also want to switch from Windows Authentication to SQL Authentication.
-Then modify TargetServerURL in the Project Properties with the path to your SSRS server - e.g. http://localhost/reportserver. Finally, deploy project to the server.
+To install:
+1. Open the project in Visual Studio 2013 or later
+2. Edit ReportServer.rds replacing 'Data Source=kimball' with the name of your SSRS server instance. You might also want to switch from Windows Authentication to SQL Authentication.
+3. Modify TargetServerURL in the Project Properties with the path to your SSRS server - e.g. http://localhost/reportserver. 
+4. Finally, deploy the project to your server.
+
 
